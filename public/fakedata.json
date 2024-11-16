@@ -1,0 +1,163 @@
+[
+    {
+      "id": 1,
+      "name": "Wireless Bluetooth Headphones",
+      "category": "electronics",
+      "price": 59.99,
+      "image": "https://via.placeholder.com/300x200",
+      "popularity": 8,
+      "description": "Comfortable over-ear headphones with excellent sound quality and 10 hours battery life.",
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "name": "Smart Watch Series X",
+      "category": "electronics",
+      "price": 199.99,
+      "image": "https://via.placeholder.com/300x200",
+      "popularity": 9,
+      "description": "Track your health and fitness with this stylish and feature-rich smart watch.",
+      "rating": 4.8
+    },
+    {
+      "id": 3,
+      "name": "Cotton Summer Dress",
+      "category": "fashion",
+      "price": 29.99,
+      "image": "https://via.placeholder.com/300x200",
+      "popularity": 6,
+      "description": "Light and comfortable summer dress perfect for casual wear.",
+      "rating": 4.2
+    },
+    {
+      "id": 4,
+      "name": "Stainless Steel Kitchen Knife Set",
+      "category": "home",
+      "price": 49.99,
+      "image": "https://via.placeholder.com/300x200",
+      "popularity": 7,
+      "description": "High-quality knife set with ergonomic handles for easy use.",
+      "rating": 4.3
+    },
+    {
+      "id": 5,
+      "name": "Gaming Mouse Pro",
+      "category": "electronics",
+      "price": 39.99,
+      "image": "https://via.placeholder.com/300x200",
+      "popularity": 5,
+      "description": "Responsive and customizable gaming mouse with RGB lighting.",
+      "rating": 4.1
+    },
+    {
+      "id": 6,
+      "name": "Elegant Leather Handbag",
+      "category": "fashion",
+      "price": 85.00,
+      "image": "https://via.placeholder.com/300x200",
+      "popularity": 7,
+      "description": "A stylish and versatile leather handbag for everyday use.",
+      "rating": 4.6
+    },
+    {
+      "id": 7,
+      "name": "Portable Blender",
+      "category": "home",
+      "price": 24.99,
+      "image": "https://via.placeholder.com/300x200",
+      "popularity": 4,
+      "description": "Compact and portable blender for smoothies and shakes on the go.",
+      "rating": 4.0
+    },
+    {
+      "id": 8,
+      "name": "Classic White Sneakers",
+      "category": "fashion",
+      "price": 49.99,
+      "image": "https://via.placeholder.com/300x200",
+      "popularity": 8,
+      "description": "Comfortable and trendy sneakers perfect for any casual outfit.",
+      "rating": 4.4
+    },
+    {
+      "id": 9,
+      "name": "Noise-Cancelling Earbuds",
+      "category": "electronics",
+      "price": 69.99,
+      "image": "https://via.placeholder.com/300x200",
+      "popularity": 9,
+      "description": "High-quality noise-cancelling earbuds with superior sound.",
+      "rating": 4.7
+    },
+    {
+      "id": 10,
+      "name": "Stylish Office Chair",
+      "category": "home",
+      "price": 129.99,
+      "image": "https://via.placeholder.com/300x200",
+      "popularity": 6,
+      "description": "Ergonomic office chair with adjustable height and comfortable seating.",
+      "rating": 4.3
+    },
+    {
+      "id": 11,
+      "name": "Designer Sunglasses",
+      "category": "fashion",
+      "price": 75.00,
+      "image": "https://via.placeholder.com/300x200",
+      "popularity": 5,
+      "description": "Trendy designer sunglasses with UV protection.",
+      "rating": 4.2
+    },
+    {
+      "id": 12,
+      "name": "4K Ultra HD TV",
+      "category": "electronics",
+      "price": 499.99,
+      "image": "https://via.placeholder.com/300x200",
+      "popularity": 10,
+      "description": "Experience vivid colors and stunning clarity with this 4K Ultra HD TV.",
+      "rating": 4.9
+    },
+    {
+      "id": 13,
+      "name": "Cozy Wool Blanket",
+      "category": "home",
+      "price": 59.99,
+      "image": "https://via.placeholder.com/300x200",
+      "popularity": 6,
+      "description": "Stay warm and comfortable with this soft wool blanket.",
+      "rating": 4.5
+    },
+    {
+      "id": 14,
+      "name": "Men's Leather Wallet",
+      "category": "fashion",
+      "price": 35.00,
+      "image": "https://via.placeholder.com/300x200",
+      "popularity": 7,
+      "description": "Durable and stylish leather wallet with multiple compartments.",
+      "rating": 4.3
+    },
+    {
+      "id": 15,
+      "name": "Portable Air Purifier",
+      "category": "home",
+      "price": 89.99,
+      "image": "https://via.placeholder.com/300x200",
+      "popularity": 5,
+      "description": "Compact air purifier perfect for small rooms and offices.",
+      "rating": 4.0
+    },
+    {
+      "id": 16,
+      "name": "Smartphone Tripod Stand",
+      "category": "electronics",
+      "price": 19.99,
+      "image": "https://via.placeholder.com/300x200",
+      "popularity": 6,
+      "description": "Stable tripod stand for capturing photos and videos with your smartphone.",
+      "rating": 4.1
+    }
+  ]
+  
