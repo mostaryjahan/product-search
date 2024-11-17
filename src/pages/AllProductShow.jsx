@@ -1,4 +1,6 @@
 import  { useState } from 'react';
+import { ImCross } from "react-icons/im";
+
 
 const AllProductShow = ({ product }) => {
   const [showModal, setShowModal] = useState(false);
@@ -34,7 +36,7 @@ const AllProductShow = ({ product }) => {
             <div className="flex justify-between items-center mb-4">
               <h2 className="text-2xl font-bold">{product.name}</h2>
               <button onClick={handleCloseModal} className="text-gray-500 hover:text-gray-800">
-                ✖️
+              <ImCross />
               </button>
             </div>
             <img src={product.image} alt={product.name} className="w-full h-64 object-cover rounded-md mb-4" />
