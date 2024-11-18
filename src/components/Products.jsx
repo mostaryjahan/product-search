@@ -8,8 +8,10 @@ const Products = () => {
   const [filteredProducts, setFilteredProducts] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
   const [categories, setCategories] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    setLoading(true);
     // Fetch product data
     fetch("/fakedata.json")
       .then((res) => res.json())
@@ -20,6 +22,7 @@ const Products = () => {
           ...new Set(data.map((product) => product.category)),
         ];
         setCategories(uniqueCategories);
+        setLoading(false);
       });
   }, []);
 
@@ -68,29 +71,35 @@ const Products = () => {
       setFilteredProducts(products);
     }
   };
+  if (loading) {
+    return (
+      <div className="flex justify-center items-center min-h-screen">
+        <div className="flex justify-center items-center">
+          <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-blue-600 border-solid"></div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="max-w-6xl mx-auto">
       <div className="md:flex gap-2">
         <div className="w-full md:w-[20%]">
-        <SearchBar onSearch={handleSearch} />
-      <FilterSort
-        categories={categories}
-        onFilterChange={handleFilterChange}
-        onSortChange={handleSortChange}
-      />
+          <SearchBar onSearch={handleSearch} />
+          <FilterSort
+            categories={categories}
+            onFilterChange={handleFilterChange}
+            onSortChange={handleSortChange}
+          />
         </div>
         <div className="w-full md:w-[80%]">
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        {filteredProducts.map((product, index) => (
-          <ProductCard key={index} product={product} />
-        ))}
-      </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {filteredProducts.map((product, index) => (
+              <ProductCard key={index} product={product} />
+            ))}
+          </div>
         </div>
       </div>
-
-    
-     
     </div>
   );
 };

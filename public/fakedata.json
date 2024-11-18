@@ -4,7 +4,7 @@
       "name": "Wireless Bluetooth Headphones",
       "category": "electronics",
       "price": 59.99,
-      "image": "https://via.placeholder.com/300x200",
+      "image": "https://i.ibb.co.com/z8Sd04t/headphone.webp",
       "popularity": 8,
       "description": "Comfortable headphones with excellent sound quality and 10 hours battery life.",
       "rating": 4.5
@@ -14,7 +14,7 @@
       "name": "Smart Watch Series X",
       "category": "electronics",
       "price": 199.99,
-      "image": "https://via.placeholder.com/300x200",
+      "image": "https://i.ibb.co.com/7nWwvJ0/smart-watch.jpg",
       "popularity": 9,
       "description": "Track your health and fitness with this stylish and feature-rich smart watch.",
       "rating": 4.8
@@ -24,7 +24,7 @@
       "name": "Cotton Summer Dress",
       "category": "fashion",
       "price": 29.99,
-      "image": "https://via.placeholder.com/300x200",
+      "image": "https://i.ibb.co.com/25RyKq8/cotton.jpg",
       "popularity": 6,
       "description": "Light and comfortable summer dress perfect for casual wear.",
       "rating": 4.2
@@ -34,7 +34,7 @@
       "name": "Stainless Steel Kitchen Knife Set",
       "category": "home",
       "price": 49.99,
-      "image": "https://via.placeholder.com/300x200",
+      "image": "https://i.ibb.co.com/dDB8nSW/knife-set.jpg",
       "popularity": 7,
       "description": "High-quality knife set with ergonomic handles for easy use.",
       "rating": 4.3
@@ -44,7 +44,7 @@
       "name": "Gaming Mouse Pro",
       "category": "electronics",
       "price": 39.99,
-      "image": "https://via.placeholder.com/300x200",
+      "image": "https://i.ibb.co.com/zXbJtQW/mouse.jpg",
       "popularity": 5,
       "description": "Responsive and customizable gaming mouse with RGB lighting.",
       "rating": 4.1
@@ -54,7 +54,7 @@
       "name": "Elegant Leather Handbag",
       "category": "fashion",
       "price": 85.00,
-      "image": "https://via.placeholder.com/300x200",
+      "image": "https://i.ibb.co.com/7tstQMn/handbag.jpg",
       "popularity": 7,
       "description": "A stylish and versatile leather handbag for everyday use.",
       "rating": 4.6
@@ -64,7 +64,7 @@
       "name": "Portable Blender",
       "category": "home",
       "price": 24.99,
-      "image": "https://via.placeholder.com/300x200",
+      "image": "https://i.ibb.co.com/mbfn4QW/blender.jpg",
       "popularity": 4,
       "description": "Compact and portable blender for smoothies and shakes on the go.",
       "rating": 4.0
@@ -74,7 +74,7 @@
       "name": "Classic White Sneakers",
       "category": "fashion",
       "price": 49.99,
-      "image": "https://via.placeholder.com/300x200",
+      "image": "https://i.ibb.co.com/ftF2hHF/white-sneaker.webp",
       "popularity": 8,
       "description": "Comfortable and trendy sneakers perfect for any casual outfit.",
       "rating": 4.4
@@ -84,7 +84,7 @@
       "name": "Noise-Cancelling Earbuds",
       "category": "electronics",
       "price": 69.99,
-      "image": "https://via.placeholder.com/300x200",
+      "image": "https://i.ibb.co.com/3TVmVN5/noise-cancelling-headphone.jpg",
       "popularity": 9,
       "description": "High-quality noise-cancelling earbuds with superior sound.",
       "rating": 4.7
@@ -94,7 +94,7 @@
       "name": "Stylish Office Chair",
       "category": "home",
       "price": 129.99,
-      "image": "https://via.placeholder.com/300x200",
+      "image": "https://i.ibb.co.com/T0crB0c/chair.webp",
       "popularity": 6,
       "description": "Ergonomic office chair with adjustable height and comfortable seating.",
       "rating": 4.3
@@ -104,7 +104,7 @@
       "name": "Designer Sunglasses",
       "category": "fashion",
       "price": 75.00,
-      "image": "https://via.placeholder.com/300x200",
+      "image": "https://i.ibb.co.com/9YMjszh/sunglass.jpg",
       "popularity": 5,
       "description": "Trendy designer sunglasses with UV protection.",
       "rating": 4.2
@@ -114,7 +114,7 @@
       "name": "4K Ultra HD TV",
       "category": "electronics",
       "price": 499.99,
-      "image": "https://via.placeholder.com/300x200",
+      "image": "https://i.ibb.co.com/VNTnkDD/tv.jpg",
       "popularity": 10,
       "description": "Experience vivid colors and stunning clarity with this 4K Ultra HD TV.",
       "rating": 4.9
@@ -124,7 +124,7 @@
       "name": "Cozy Wool Blanket",
       "category": "home",
       "price": 59.99,
-      "image": "https://via.placeholder.com/300x200",
+      "image": "https://i.ibb.co.com/GJDw4Nn/blanket.jpg",
       "popularity": 6,
       "description": "Stay warm and comfortable with this soft wool blanket.",
       "rating": 4.5
@@ -134,7 +134,7 @@
       "name": "Men's Leather Wallet",
       "category": "fashion",
       "price": 35.00,
-      "image": "https://via.placeholder.com/300x200",
+      "image": "https://i.ibb.co.com/pQ9Lvyx/wallet.jpg",
       "popularity": 7,
       "description": "Durable and stylish leather wallet with multiple compartments.",
       "rating": 4.3
@@ -144,7 +144,7 @@
       "name": "Portable Air Purifier",
       "category": "home",
       "price": 89.99,
-      "image": "https://via.placeholder.com/300x200",
+      "image": "https://i.ibb.co.com/tMNpkyr/air.jpg",
       "popularity": 5,
       "description": "Compact air purifier perfect for small rooms and offices.",
       "rating": 4.0
@@ -154,7 +154,7 @@
       "name": "Smartphone Tripod Stand",
       "category": "electronics",
       "price": 19.99,
-      "image": "https://via.placeholder.com/300x200",
+      "image": "https://i.ibb.co.com/qM0hrjW/tripod.jpg",
       "popularity": 6,
       "description": "Stable tripod stand for capturing photos and videos with your smartphone.",
       "rating": 4.1
