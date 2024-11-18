@@ -60,21 +60,3 @@ const AllProductShow = ({ product }) => {
 export default AllProductShow;
 
 
-
-// const AllProductShow = ({product}) => {
-//     return (
-//         <div>
-//             <div  className="bg-white p-4 rounded shadow-md ">
-//             <img src={product.image} alt="" />
-//             <h2 className="text-lg font-semibold mb-2">{product.name}</h2>
-//             <p className="text-gray-700 mb-4">{product.description}</p>
-//             <span className="text-sm font-bold text-blue-600">${product.price}</span>
-
-//             <button className="flex justify-end items-center border-2 px-6 py-1">Details</button>
-
-//           </div>
-//         </div>
-//     );
-// };
-
-// export default AllProductShow;

@@ -3,17 +3,17 @@ import {
     
   } from "react-router-dom";
 import Home from "../pages/Home";
-import AllProducts from "../pages/AllProducts";
+// import AllProducts from "../pages/AllProducts";
 const router = createBrowserRouter([
     {
       path: "/",
       element: <Home />,
-      children: [
-        {
-          path: '/allProducts',
-          element: <AllProducts />
-        }
-      ]
+      // children: [
+      //   {
+      //     path: '/allProducts',
+      //     element: <AllProducts />
+      //   }
+      // ]
     },
   ]);
   
