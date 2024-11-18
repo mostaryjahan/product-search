@@ -1,15 +1,14 @@
 import { useState } from 'react';
 
 const SearchBar = ({ onSearch }) => {
-  // State to manage search input
   const [searchQuery, setSearchQuery] = useState('');
 
-  // Handle search input change
+  //search input change
   const handleSearchChange = (e) => {
     setSearchQuery(e.target.value);
   };
 
-  // Handle search button click
+  //search button 
   const handleSearchClick = () => {
     onSearch(searchQuery);
   };
@@ -21,7 +20,7 @@ const SearchBar = ({ onSearch }) => {
         placeholder="Search products by name..."
         value={searchQuery}
         onChange={handleSearchChange}
-        className="w-50% p-2 rounded-md border border-gray-300"
+        className="w-[60%] p-2 rounded-md border border-gray-300"
       />
       <button
         onClick={handleSearchClick}
