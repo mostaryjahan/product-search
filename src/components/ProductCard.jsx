@@ -18,7 +18,7 @@ const ProductCard = ({ product }) => {
       <div className="bg-white p-4 rounded shadow-md h-full flex flex-col justify-between">
         <img src={product.image} alt={product.name} className="w-full md:h-48 object-cover rounded-md mb-2" />
         <h2 className="text-lg font-semibold mb-1">{product.name}</h2>
-        <p className="text-gray-700 mb-1">{product.description}</p>
+        <p className="text-gray-700 mb-1">{product.category}</p>
         <span className="text-sm font-bold text-blue-600">${product.price}</span>
 
         <button
