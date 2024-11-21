@@ -20,11 +20,11 @@ const SearchBar = ({ onSearch }) => {
         placeholder="Search products by name..."
         value={searchQuery}
         onChange={handleSearchChange}
-        className="w-[60%] p-2 rounded-md border border-gray-300"
+        className="w-[60%] p-2 rounded-md border border-gray-400"
       />
       <button
         onClick={handleSearchClick}
-        className="bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600 transition-colors"
+        className="bg-[#145240] text-white p-2 rounded-md hover:bg-[#25bd92] transition-colors"
       >
         Search
       </button>

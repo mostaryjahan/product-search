@@ -75,7 +75,7 @@ const Products = () => {
     return (
       <div className="flex justify-center items-center min-h-screen">
         <div className="flex justify-center items-center">
-          <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-blue-600 border-solid"></div>
+          <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-[#145240] border-solid"></div>
         </div>
       </div>
     );
