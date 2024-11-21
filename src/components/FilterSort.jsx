@@ -5,19 +5,19 @@ const FilterSort = ({ categories = [], onFilterChange, onSortChange }) => {
   const [selectedPriceRange, setSelectedPriceRange] = useState('');
   const [sortOption, setSortOption] = useState('');
 
-  // Handle changes for category filter
+  // category filter
   const handleCategoryChange = (e) => {
     setSelectedCategory(e.target.value);
     onFilterChange('category', e.target.value);
   };
 
-  // Handle changes for price range filter
+  // for price range filter
   const handlePriceRangeChange = (e) => {
     setSelectedPriceRange(e.target.value);
     onFilterChange('priceRange', e.target.value);
   };
 
-  // Handle changes for sorting
+  // for sorting
   const handleSortChange = (e) => {
     setSortOption(e.target.value);
     onSortChange(e.target.value);
