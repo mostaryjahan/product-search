@@ -34,11 +34,13 @@ const Products = () => {
       filtered = filtered.filter((product) => product.category === value);
     }
 
-    if (type === "priceRange" && value) {
-      const [min, max] = value.split("-").map(Number);
-      filtered = filtered.filter(
-        (product) => product.price >= min && product.price <= max
-      );
+    if (type === "priceRange") {
+      const { min, max } = value;
+      filtered = filtered.filter((product) => {
+        const minPrice = min ? Number(min) : 0;
+        const maxPrice = max ? Number(max) : Infinity;
+        return product.price >= minPrice && product.price <= maxPrice;
+      });
     }
 
     setFilteredProducts(filtered);
@@ -83,22 +85,21 @@ const Products = () => {
 
   return (
     <div className="max-w-6xl mx-auto">
-      <div className="md:flex gap-2">
-        <div className="w-full md:w-[20%]">
+      <div className="">
+      
           <SearchBar onSearch={handleSearch} />
           <FilterSort
             categories={categories}
             onFilterChange={handleFilterChange}
             onSortChange={handleSortChange}
           />
-        </div>
-        <div className="w-full md:w-[80%]">
+       
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {filteredProducts.map((product, index) => (
               <ProductCard key={index} product={product} />
             ))}
           </div>
-        </div>
+     
       </div>
     </div>
   );
